@@ -1,0 +1,565 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+.navbar-custom {
+    background-color: #EAEAEA;
+    padding: 30px 0;
+    border-bottom: 8px solid #4E7FFF;
+}
+.navbar-nav .nav-link, .btn-custom {
+    font-family: "Raleway", sans-serif;
+    color: #3E4B58;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar-nav .nav-link:hover {
+    color: #4E7FFF;
+}
+.navbar-brand img{
+    width: 100%;
+    min-height: 38px;
+}
+.navbar-nav.ms-auto {
+    gap: 50px;
+    display: flex;
+    align-items: center;
+}
+.btn-custom {
+    background-color: #3E4B58;
+    color: white!important;
+    border-radius: 20px;
+}
+.btn-custom:hover {
+    background-color: #3E4B58;
+}
+
+.banner {
+    background-image: url('img/shutterstock_2124121496.jpg');
+    background-size: cover;
+    background-position: center top;
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-text {
+    color: #e1fac2;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.1;
+    font-family: "Reddit Sans", sans-serif;
+}
+
+/*card*/
+.proyectos{
+    font-family: "Raleway", sans-serif;
+    background-color: #EAEAEA;
+    padding: 70px 0;
+}
+.card.project-card {
+    justify-content: end;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.card-img-top.project-img {
+    width: 100%;
+    object-fit: cover;
+}
+.card-body {
+    position: absolute;
+    width: 100%;
+    background-color: #0000006b;
+    color: #ffffff;
+    padding: 25px 38px 20px;
+}
+.txt-arrow{
+    display: flex;
+    justify-content: space-between;
+}
+.location{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 5px;
+}
+.location img{
+    width: auto;
+    object-fit: cover;
+    min-height: 20px;
+}
+.txt-location{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+}
+.card-text {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.price{
+    color: #e1fac2;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.price .span-price{
+    font-size: 18px;
+}
+.titulo-proyectos h2 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #3E4B58;
+}
+.titulo-proyectos p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #3E4B58;
+}
+
+/*info*/
+.info{
+    padding: 80px 0 120px;
+}
+.box img{
+    width: 100%;
+    max-width: 390px;
+    object-fit: cover;
+}
+.box.b-left img {
+    border-radius: 0 20px 20px 0;
+}
+.box.b-right{
+    text-align: end;
+    margin-bottom: -120px;
+}
+.box.b-right img {
+    border-radius: 20px 0 0 20px;
+}
+.txt-middle {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+.info-titulo{
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+.info-titulo span{
+    font-style: italic;
+    font-weight: 600;
+}
+.info-text{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Reddit Sans", sans-serif;
+    margin-bottom: 50px;
+}
+.max-w{
+    max-width: 460px;
+}
+
+/*articulos*/
+.articulos {
+    background-color: #EAEAEA;
+    font-family: "Raleway", sans-serif;
+    padding: 70px 0;
+}
+.c-art-bot{
+    padding: 20px 25px 15px;
+    background-color: #4E7FFF;
+}
+.art-text{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 20px;
+}
+.at-see{
+    display: none;
+}
+.card-art{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.c-art-top img{
+    width: 100%;
+    object-fit: cover;
+}
+.box-leer img{
+    width: 20px;
+}
+.box-leer{
+    display: flex;
+    justify-content: end;
+}
+.box-leer a{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.box-leer p{
+    margin: 0;
+    color: #E1FAC2;
+    font-size: 15px;
+    font-weight: 500;
+}
+.articulos-titulo{
+    text-align: center;
+}
+.articulos-titulo h2 {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 35px;
+    color: #3E4B58;
+}
+.c-bg-green{
+    background-color: #6AC1B1;
+}
+.c-bg-gray{
+    background-color: #3E4B58;
+}
+
+/*footer*/
+.footer{
+    background-color: #3E4B58;
+    padding: 75px 0 20px;
+    font-family: "Raleway", sans-serif;
+}
+.foot-img img {
+    width: 100%;
+    max-width: 207px;
+}
+.f-copy {
+    margin-top: 70px;
+    text-align: center;
+}
+.f-copy p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.foot-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    gap: 30px;
+    flex-direction: column;
+}
+.foot-list li a {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+}
+.foot-text {
+    margin-bottom: 16px;
+    color: #EAEAEA;
+    font-weight: 600;
+    font-size: 18px;
+}
+.icons-social {
+    display: flex;
+    gap: 30px;
+}
+.ft-txt-t{
+    margin-bottom: 16px;
+}
+.ft-txt-b{
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+.foot-input{
+    width: 100%;
+    max-width: 350px;
+    border-radius: 10px;
+    min-height: 35px;
+    padding: 0 10px;
+}
+
+/**********************************************************/
+
+/*paginas proyectos en venta*/
+.property-block {
+    background-color: #3E4B58;
+    border-radius: 20px;
+    padding: 30px 35px 20px;
+    color: #E1FAC2!important;
+}
+.border-top-bot {
+    border-top: 1px solid #E1FAC2;
+    border-bottom: 1px solid #E1FAC2;
+}
+.border-top-bot{
+    border-top-color: #E1FAC2!important;
+    border-top-width: 1px!important;
+}
+.property-block h3, p{
+    margin: 0;
+}
+.tabla-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    border-right: 1px solid;
+    border-left: 1px solid;
+}
+.tabla-icon img {
+    width: 100%;
+    max-width: 26px;
+}
+.pad-tabla {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.text-block {
+    text-align: center;
+}
+.tabla-text p {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.3;
+    text-align: center;
+    font-family: "Reddit Sans", sans-serif;
+}
+.dunna-tabla {
+    letter-spacing: 2.9px;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-family: "Raleway", sans-serif!important;
+}
+/*galeria*/
+
+#galeria{
+    background-color: #EAEAEA;
+    padding: 40px 0;
+}
+.galeria-principal {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.galeria-principal img {
+    object-fit: cover;
+    width: 100%;
+}
+.galeria-secundaria {
+    width: 100%;
+}
+.galeria-imagen {
+    border-radius: 15px;
+    overflow: hidden;
+}
+.galeria-imagen img {
+    object-fit: cover;
+    width: 100%;
+    height: 113px;
+}
+
+/*seccion formulario*/
+#formulario{
+    padding: 60px 0;
+}
+#formulario .form-box {
+    background-color: #3E4B58;
+    border-radius: 20px;
+    overflow: hidden;
+    width: 100%;
+    padding: 35px 45px 45px 45px;
+    max-width: 420px;
+    font-family: "Raleway", sans-serif;
+}
+.btn-submit {
+    background-color: #6AC1B1;
+    color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    display: block;
+    margin: auto;
+    font-size: 30px;
+    font-weight: 700;
+}
+.btn-submit:hover {
+    background-color: #6AC1B1;
+    color: #ffffff;
+}
+/* Estilos para los inputs */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+}
+.form-check-label {
+    color: white;
+}
+.form-control {
+    margin-bottom: 15px;
+}
+.text-form h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 700;
+}
+.transparent{
+    background-color: transparent;
+}
+.t-check-form{
+    margin: 25px 0;
+}
+.form-right{
+    display: flex;
+    justify-content: end;
+}
+/*descripcion del formulario*/
+.desc-form h2 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #3E4B58;
+    margin-bottom: 25px;
+    font-family: "Raleway", sans-serif;
+}
+.desc-form p {
+    color: #3E4B58;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.3;
+    max-width: 650px;
+    font-family: "Reddit Sans", sans-serif;
+}
+.txt-up-form{
+    margin-bottom: 20px;
+}
+
+/*seccion de icons*/
+#sect-icons {
+    background-color: #3E4B58;
+    padding: 90px 20px 75px;
+}
+
+.icon-text {
+    color: #e1fac2;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 40px;
+    line-height: 1.2;
+    text-align: center;
+    font-family: "Reddit Sans", sans-serif;
+}
+.title-icon{
+    color: #EAEAEA;
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "Reddit Sans", sans-serif;
+    line-height: 1.3;
+    margin-bottom: 75px;
+}
+
+/*section mapa*/
+.ct-section {
+    background-color: #eaeaea;
+    padding: 70px 0;
+}
+
+.location-info {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 25px;
+    z-index: 2;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: -70px;
+    max-width: 365px;
+    margin-left: 50px;
+}
+
+.location-title {
+    font-size: 30px;
+    font-weight: 500;
+    color: #4e7fff;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 0;
+}
+
+.location-address {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin: 24px 0;
+}
+
+.location-phone {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.map-container {
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    /*info*/
+    .box img {
+        height: 250px;
+    }
+    .txt-middle {
+        margin: 40px 0;
+    }
+    .box.b-right {
+        margin-bottom: 0;
+    }
+    .info {
+        padding: 70px 0;
+    }
+    /*articulos*/
+    .at-see {
+        display: block;
+    }
+    .at-none {
+        display: none;
+    }
+    .box-art {
+        gap: 20px;
+    }
+    .c-art-top img {
+        height: 320px;
+        object-position: bottom;
+    }
+    .card-img-top.project-img {
+        height: 450px;
+    }
+    .foot-img {
+        margin-bottom: 40px;
+    }
+    .foot-list {
+        gap: 20px;
+    }
+    .ft-txt-t {
+        margin-top: 20px;
+    }
+}
