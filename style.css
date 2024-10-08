@@ -560,7 +560,7 @@ iframe{
 }
 
 /* Tabs */
-.nav-tabs .nav-link {
+#apartments-section .nav-tabs .nav-link {
     color: #3e4b58;
     font-weight: 700;
     font-size: 30px;
@@ -568,13 +568,13 @@ iframe{
     font-family: 'Raleway', sans-serif;
 }
 
-.nav-tabs .nav-link.active {
+#apartments-section .nav-tabs .nav-link.active {
     background-color: #3E4B58;
     border-color: #3e4b58;
     border-radius: 0;
     color: #E1FAC2;
 }
-li.nav-item {
+#apartments-section li.nav-item {
     width: 25%;
     text-align: center;
     border: 1px solid #3E4B58;
