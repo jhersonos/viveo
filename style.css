@@ -478,22 +478,24 @@ a{
 }
 
 /*section mapa*/
-.ct-section {
+#sect-mapa {
     background-color: #eaeaea;
-    padding: 70px 0;
+    padding: 100px 0;
 }
-
 .location-info {
     background-color: #ffffff;
     border-radius: 20px;
-    padding: 25px;
+    padding: 25px 45px 40px;
     z-index: 2;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: -70px;
+    margin-bottom: -170px;
     max-width: 365px;
     margin-left: 50px;
 }
-
+.d-flex.align-items-center.border-bottom.pb-3.mb-3 {
+    border-bottom: 1px solid #4E7FFF !important;
+    gap: 10px;
+}
 .location-title {
     font-size: 30px;
     font-weight: 500;
@@ -501,27 +503,134 @@ a{
     font-family: 'Raleway', sans-serif;
     margin-bottom: 0;
 }
-
 .location-address {
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     margin: 24px 0;
+    font-family: "Reddit Sans", sans-serif;
 }
-
 .location-phone {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 0;
+    font-family: "Reddit Sans", sans-serif;
 }
-
+.icon-gap{
+    gap: 10px;
+}
+iframe{
+    border-radius: 20px;
+}
 .map-container {
     width: 100%;
-    border-radius: 20px;
     overflow: hidden;
-    margin-top: 20px;
 }
 
+/*seccion tabs*/
+
+#apartments-section {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.section-title {
+    color: #3e4b58;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 15px !important;
+    max-width: 650px;
+    border-top: 1px solid #3E4B58;
+    border-bottom: 1px solid #3E4B58;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+.section-subtitle {
+    color: #3e4b58;
+    text-align: center;
+    max-width: 790px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-family: "Reddit Sans", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+
+/* Tabs */
+.nav-tabs .nav-link {
+    color: #3e4b58;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.3;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-tabs .nav-link.active {
+    background-color: #3E4B58;
+    border-color: #3e4b58;
+    border-radius: 0;
+    color: #E1FAC2;
+}
+li.nav-item {
+    width: 25%;
+    text-align: center;
+    border: 1px solid #3E4B58;
+}
+#apartmentsTabs {
+    width: 100%;
+}
+#apartmentsTabContent {
+    margin-top: 60px !important;
+}
+
+/* Contenido de cada pestaña */
+.apartment-title {
+    color: #3e4b58;
+    margin-bottom: 35px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.3;
+}
+
+.apartment-description {
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+.apartment-features {
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.apartment-features li {
+    margin-bottom: 10px;
+    font-family: "Reddit Sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 1.3;
+    padding: 10px 0;
+    border-bottom: 1px solid;
+    max-width: 350px;
+}
+
+.img-fluid {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/*seccion proyectos bg-white*/
+.p-white{
+    background-color: #ffffff;
+}
 @media (max-width: 768px) {
     /*info*/
     .box img {
